@@ -1,17 +1,12 @@
 import React from "react";
 import ChildComponent from "./ChildComponent";
 
-function ParentComponent() {
-  const name = "Alice";
-  const age = 22;
-
+function App() {
   return (
     <div>
-      <h1>Parent Component</h1>
-
-      <ChildComponent name={name} age={age} />
+      <ChildComponent />
     </div>
   );
 }
 
-export default ParentComponent;
+export default App;
